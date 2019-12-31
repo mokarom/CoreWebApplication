@@ -59,7 +59,6 @@ namespace CoreWebApplication.SeleniumTest
                 wait.Until(d => d.Title.StartsWith("cheese", StringComparison.OrdinalIgnoreCase));
                 Assert.IsTrue(driver.Title.StartsWith("cheese", StringComparison.OrdinalIgnoreCase));
             }
-
         }
 
         /// <summary>

@@ -10,3 +10,4 @@ CoreWebApplication/.vs/CoreWebApplication/v16/.suo
 .vs
 .nuget
 .suo
+*.ide-wal
