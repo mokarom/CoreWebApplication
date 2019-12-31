@@ -1,3 +1,4 @@
+.suo
 .vs
 .nuget
 .suo
@@ -18,3 +19,7 @@ CoreWebApplication/.vs/CoreWebApplication/DesignTimeBuild/.dtbcache
 *.ide-shm
 *.ide-wal
 *.ide
+CoreWebApplication/.vs/CoreWebApplication/v16/.suo
+*.cache
+CoreWebApplication/.vs/CoreWebApplication/v16/.suo
+*.cache

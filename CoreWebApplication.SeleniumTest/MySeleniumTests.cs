@@ -1,10 +1,12 @@
 using System;
+using System.Globalization;
 using System.IO;
 using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
+using OpenQA.Selenium.Support.UI;
 
 namespace CoreWebApplication.SeleniumTest
 {
@@ -20,24 +22,42 @@ namespace CoreWebApplication.SeleniumTest
 
         }
 
+        [TestInitialize()]
+        public void SetupTest()
+        {
+            appURL = "http://www.google.com/";
+
+            string browser = "Chrome";
+            switch (browser)
+            {
+                case "Chrome":
+                    driver = new ChromeDriver();
+                    break;
+                default:
+                    driver = new ChromeDriver();
+                    break;
+            }
+
+        }
+
         [TestMethod]
         [TestCategory("Chrome")]
         public void TheBingSearchTest()
         {
             var chromeOptions = new ChromeOptions();
             chromeOptions.AddArguments("headless");
-            using (driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)))
+            using (driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), chromeOptions))
             {
                 driver.Navigate().GoToUrl(appURL + "");
-                driver.Manage().Window.Maximize();
+                //driver.Manage().Window.Maximize();
                 driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
-                var element = driver.FindElement(By.Id("CampaignName"));
-                element.SendKeys("Azure Pipelines");
-                //driver.FindElement(By.Id("sb_form_go")).Click();
-                //driver.FindElement(By.XPath("//ol[@id='b_results']/li/h2/a/strong[3]")).Click();
-                //Assert.IsTrue(driver.Title.Contains("Azure Pipelines"), "Verified title of the page");
-                Assert.IsTrue(true);
+                var element = driver.FindElement(By.Name("q"));
+                element.SendKeys("Cheese");
+                element.Submit();
+                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                wait.Until(d => d.Title.StartsWith("cheese", StringComparison.OrdinalIgnoreCase));
+                Assert.IsTrue(driver.Title.StartsWith("cheese", StringComparison.OrdinalIgnoreCase));
             }
 
         }
@@ -52,23 +72,7 @@ namespace CoreWebApplication.SeleniumTest
             set { testContextInstance = value; }
         }
 
-        [TestInitialize()]
-        public void SetupTest()
-        {
-            appURL = "http://localhost:53281/";
-
-            string browser = "Chrome";
-            switch (browser)
-            {
-                case "Chrome":
-                    driver = new ChromeDriver();
-                    break;               
-                default:
-                    driver = new ChromeDriver();
-                    break;
-            }
-
-        }
+       
 
         [TestCleanup()]
         public void MyTestCleanup()
