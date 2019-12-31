@@ -115,7 +115,6 @@ C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -187,3 +186,4 @@ C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\obj\Debug\netcoreapp3.
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\obj\Debug\netcoreapp3.1\CoreWebApplication.SeleniumTest.csproj.CopyComplete
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\obj\Debug\netcoreapp3.1\CoreWebApplication.SeleniumTest.dll
 C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\obj\Debug\netcoreapp3.1\CoreWebApplication.SeleniumTest.pdb
+C:\Work\Temp\Core\CoreApp\CoreWebApplication.SeleniumTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
