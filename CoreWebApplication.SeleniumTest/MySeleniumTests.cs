@@ -17,6 +17,7 @@ namespace CoreWebApplication.SeleniumTest
 
         public MySeleniumTests()
         {
+
         }
 
         [TestMethod]
