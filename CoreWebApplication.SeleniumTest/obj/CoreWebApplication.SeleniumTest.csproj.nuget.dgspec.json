@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj": {}
+    "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj": {}
   },
   "projects": {
-    "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj": {
+    "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj",
+        "projectUniqueName": "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj",
         "projectName": "CoreWebApplication.SeleniumTest",
-        "projectPath": "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj",
+        "projectPath": "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication.SeleniumTest\\CoreWebApplication.SeleniumTest.csproj",
         "packagesPath": "F:\\Users\\mokarom\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication.SeleniumTest\\obj\\",
+        "outputPath": "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication.SeleniumTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "F:\\Users\\mokarom\\AppData\\Roaming\\NuGet\\NuGet.Config",

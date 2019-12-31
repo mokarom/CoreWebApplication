@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication\\CoreWebApplication.csproj": {}
+    "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication\\CoreWebApplication.csproj": {}
   },
   "projects": {
-    "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication\\CoreWebApplication.csproj": {
+    "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication\\CoreWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication\\CoreWebApplication.csproj",
+        "projectUniqueName": "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication\\CoreWebApplication.csproj",
         "projectName": "CoreWebApplication",
-        "projectPath": "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication\\CoreWebApplication.csproj",
+        "projectPath": "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication\\CoreWebApplication.csproj",
         "packagesPath": "F:\\Users\\mokarom\\.nuget\\packages\\",
-        "outputPath": "F:\\Users\\mokarom\\source\\repos\\CoreWebApplication\\obj\\",
+        "outputPath": "C:\\Work\\Temp\\Core\\CoreApp\\CoreWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "F:\\Users\\mokarom\\AppData\\Roaming\\NuGet\\NuGet.Config",
